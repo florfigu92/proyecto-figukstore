@@ -38,8 +38,9 @@ aside{
 }
 
 footer{
-    background-color: #FBDFE9;
     grid-area: footer;
+    background: rgb(184,96,210);
+    background: linear-gradient(90deg, rgba(184,96,210,0.3617822128851541) 0%, rgba(225,150,242,0.9668242296918768) 35%, rgba(245,203,244,1) 100%);
 }
 /*Utilidades*/
 .mb-1{margin-bottom: 10px;}
@@ -77,6 +78,11 @@ li{
     flex-direction: column;
     align-items: center;
 }
+
+.barra a:hover{
+transform: scale(2.1);
+}
+
 .barra-navegacion{
     display: flex;
     flex-direction: column;
@@ -88,6 +94,7 @@ li{
     text-decoration: none;
     color: #000;
 }
+
 
 /*Hero*/
 .hero{
@@ -163,7 +170,6 @@ li{
     text-decoration: none;
     color: #000;
 }
-
 
 /*Galeria*/
 .galeria{
