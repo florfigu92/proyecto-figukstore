@@ -80,8 +80,8 @@ li{
 }
 
 .barra a:hover{
-transform: scale(2.1);
-}
+    transform: scale(2.1);
+    }
 
 .barra-navegacion{
     display: flex;
