@@ -237,6 +237,7 @@ transform: scalex(30deg);
     background-color: #FBDFE9;
     border-radius: 10px;
 }
+
 .casillas__users{
     display: flex;
     flex-direction: column;
@@ -253,8 +254,11 @@ transform: scalex(30deg);
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.casillas__botones .boton{background-color: #fff; width: 80%;}
+    }
+
+    .casillas__botones .boton{
+    background-color: #fff; width: 80%;
+   }
 
 
 /*Noticias*/
